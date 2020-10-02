@@ -1,0 +1,16 @@
+GET http://127.0.0.1:8080 HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8080/user HTTP/1.1
+content-type: application/json
+
+{
+    "name": "ehika"
+}
+
+# id 8a1901da-1c21-4d1b-bd4e-fd5d0e5f8930
+
+###
+
+GET http://127.0.0.1:8080/user/8a1901da-1c21-4d1b-bd4e-fd5d0e5f8930 HTTP/1.1
